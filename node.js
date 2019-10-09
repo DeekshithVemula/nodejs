@@ -5,7 +5,6 @@ var Request=require('request');
 var port = 80;
 
 
-var host =process.env.HOST;
 
 var s = http.createServer();
 
