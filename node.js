@@ -8,6 +8,16 @@ var port = 80;
 
 var s = http.createServer();
 
-console.log("Hello world");
+s.on('request', function(request, response) {
+
+
+response.write("Hello World!");
+        response.end();
+    });
+
+
+
+console.log("In the logs");
+
 
 s.listen(port);
