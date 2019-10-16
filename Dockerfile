@@ -12,6 +12,6 @@ RUN npm install express
 COPY . .
 
 
-EXPOSE 8080
+EXPOSE 80
 
 CMD ["node" ,"node.js"]
